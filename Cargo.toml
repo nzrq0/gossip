@@ -1,0 +1,18 @@
+[package]
+name = "gossip"
+version = "0.1.0"
+authors = [
+  "nzrq0 <nzrq00@gmail.com>"
+]
+edition = "2021"
+description = "Gossip protocol exploration project"
+readme = "README.md"
+repository = "https://github.com/nzrq0/gossip"
+license = "MIT"
+keywords = [ "gossip", "protocol" ]
+categories = [ "network-programming", "database" ]
+
+[dependencies]
+serde = "1"
+tokio = "1"
+
